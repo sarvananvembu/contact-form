@@ -112,4 +112,10 @@ phone.onfocus = function() {
     mobileerror.innerHTML = "";
   }
 };
-//mobile 2nd page validation
+
+//div scroll
+$("#tally-button").click(function() {
+    $('html,body').animate({
+        scrollTop: $("#foo").offset().top},
+        'slow');
+});
